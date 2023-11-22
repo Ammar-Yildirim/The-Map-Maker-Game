@@ -17,10 +17,10 @@ The map starts empty, but five fixed mountain cells are pre-defined at (2,2), (4
 Map elements include forests, villages, farms, and water. Elements are randomly provided and must be strategically placed on the grid. Ensure that no part of an element covers a reserved field (mountain), and that it stays within the map boundaries.
 
 - Example of a valid placement:
-  ![Good Example](jo.png)
+  ![Good Example](./readmeImages/jo.png)
 
 - Invalid placement (hanging off the map):
-  ![Bad Example](rossz.png)
+  ![Bad Example](./readmeImages/rossz.png)
 
 ### End of the Game
 
@@ -29,13 +29,17 @@ The game concludes when the total time value reaches or exceeds 28 units. Each m
 ## Calculating Score
 
 1. **Mission Cards:** Four random mission cards (A, B, C, D) are selected at the beginning, each outlining specific scoring conditions.
+   ![Mission Cards](./readmeImages/basic_missions.png)
 
-2. **Example Mission Card:**
+
+3. **Example Mission Card:**
    - 'You get three points for each of your water fields adjacent to your mountain fields.'
-   ![Mission Example](magicians_valley_mission.png)
+   ![Mission Example](./readmeImages/magicians_valley_mission.png)
 
-3. **Scoring Points:**
+4. **Scoring Points:**
    - Earn points by surrounding mountains on all four sides.
+   ![Surrounded Mountain](./readmeImages/surround_mountain.png)
+
    - Points are calculated based on completed missions.
 
 ## Seasons
@@ -49,7 +53,7 @@ The game concludes when the total time value reaches or exceeds 28 units. Each m
 
 ## Game Interface
 
-![Main Screen](main_screen.png)
+![Main Screen](./readmeImage/main_screen.png)
 
 ## How to Play
 
