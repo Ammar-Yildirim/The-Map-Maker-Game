@@ -3,6 +3,7 @@
 ## Overview
 
 Embark on an imperial mapping adventure as the appointed mapmaker in the Potato Empire. Empress French Frie has entrusted you with the task of exploring and settling uncharted territories. Your reputation hinges on successfully executing her missions and cultivating a thriving empire on an 11x11 square grid map.
+
 <img src="./readmeImages/theme.png" alt="Mission Example" width="530" height="358px"/>
 
 
