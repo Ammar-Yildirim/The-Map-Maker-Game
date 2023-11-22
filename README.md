@@ -10,7 +10,7 @@ Embark on an imperial mapping adventure as the appointed mapmaker in the Potato 
 
 The map starts empty, but five fixed mountain cells are pre-defined at (2,2), (4,9), (6,4), (9,10), and (10,6).
 
-![Initial State](ures_terkep_hegyekkel.png)
+![Initial State](./readmeImages/ures_terkep_hegyekkel.png)
 
 ### Placing Map Elements
 
