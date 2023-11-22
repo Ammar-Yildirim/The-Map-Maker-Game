@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home Assignment</title>
+</head>
+<body>
+    <div class="container">
+        <div class="grid-container">
+            <h1>Potato Map</h1>
+            <div class="board">
+            </div>
+        </div>
+        <div class="info-container">
+            <div class="points-info">
+                <div class="points">
+                    <div class="point" id="spring">Spring: 
+                        <br>
+                        0 Points</div>
+                    <div class="point" id="summer">Summer: 
+                        <br>
+                        0 Points</div>
+                    <div class="point" id="autumn">Autumn: 
+                        <br>
+                        0 Points</div>
+                    <div class="point" id="winter">Winter: 
+                        <br>
+                        0 Points</div>
+                </div>
+                <h4 id="game-points">Total: 0 Points</h3>
+            </div>
+            <div class="mission-info">
+                <h3 id="season-text">Current Season: Spring AB</h3>
+                <div class="missions">
+                    <img src="./assets/missions_eng/mission2.png" alt="missionImg" class="mission highlightImage">
+                    <img src="./assets/missions_eng/mission3.png" alt="missionImg" class="mission highlightImage">
+                    <img src="./assets/missions_eng/mission7.png" alt="missionImg" class="mission">
+                    <img src="./assets/missions_eng/mission11.png" alt="missionImg" class="mission">
+                </div>
+            </div>
+            <div class="element-info">
+                <h3 id="elapsed-time">Elapsed time in current season: 0/7</h3>
+                <h3>Current Element: </h3>
+                <div class="element">
+                    <div class="element-buttons">
+                        <button class="button" id="rotate-button">Rotate</button>
+                        <button class="button" id="flip-button">Flip</button>
+                    </div>
+                    <div class="elementDisplay">
+                        <div class="elementDisplayGrid">
+                        </div>
+                        <p>
+                            <i class="fa-solid fa-clock"></i>
+                            <p id="element-time"></p>
+                        </p>
+                    </div>
+                    <p id="extra-info">The outlined tile is the anchor</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

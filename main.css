@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    height: 82px;
+    width: auto;
+}
+button{
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 900;
+    display: block;
+    cursor: pointer;
+    border-radius: 5px;
+
+    transition: .3s ease-in-out;
+}
+button:hover{
+    color:white;
+    background-color: black;
+}
+/* Left side of the webpage */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:
+    linear-gradient(to bottom, rgba(233, 233, 233, 0.7), rgba(220, 220, 220, 0.7)),
+    url('assets/theme.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.grid-container{
+    padding: 20px;
+}
+.board{
+    cursor: pointer;
+    background-color: white;
+    border: 7px solid white;
+    border-radius: 5px;
+    height: 454px;
+    width: 454px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.board div{
+    height: 38px;
+    width: 38px;
+    margin: 1px;
+    background-image: url(./assets/tiles/base_tile.svg);
+    background-size: contain;
+}
+/* Right side of the webpage */
+.info-container{
+    padding: 10px;
+    width: 520px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.points{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.point{
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+}
+#spring{
+    background-color: rgb(80, 181, 80);
+    border: 3px solid rgb(50, 111, 50);
+}
+#summer{
+    background-color: rgb(248, 232, 16);
+    border: 3px solid rgb(192, 180, 11);
+}
+#autumn{
+    background-color: rgb(248, 163, 16);
+    border: 3px solid rgb(192, 120, 11);
+}
+#winter{
+    background-color: rgb(16, 217, 248);
+    border: 3px solid rgb(11, 177, 192);
+}
+.points-info h4{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.mission-info{
+    margin: 15px 0px;
+}
+.mission-info h3{
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+.missions{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mission{
+    margin: 1px;
+    border-radius: 13px;
+}
+
+.element-info h3:first-child{
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+}
+.element{
+    display: flex;
+    justify-content: center;
+}
+.anchor{
+    text-align:  center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.elementDisplay{
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    background-color: white;
+}
+.elementDisplay p{
+    color: rgb(75, 75, 75);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+}
+.elementDisplayGrid{
+    height: 126px;
+    width: 126px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.elementDisplayGrid div{
+    height: 38px;
+    width: 38px;
+    margin: 1px;
+    background-size: contain;
+}
+#extra-info{
+    font-size: 14px;
+    height: 20px;
+    margin: 20px 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(182, 182, 182);
+    border: 2px solid gray;
+    text-align: center;
+}
+
+.highlightImage {
+    border: 2px solid yellow;
+    height: 84px;
+    box-shadow: 0px 0px 20px rgba(212, 215, 11, 0.9)
+}
+
+.wrong-placement{
+    border: 2px solid red;
+    border-radius: 7px;
+}
