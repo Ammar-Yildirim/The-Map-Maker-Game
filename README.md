@@ -53,7 +53,7 @@ The game concludes when the total time value reaches or exceeds 28 units. Each m
 
 ## Game Interface
 
-![Main Screen](./readmeImage/main_screen.png)
+![Main Screen](./readmeImages/main_screen.png)
 
 ## How to Play
 
