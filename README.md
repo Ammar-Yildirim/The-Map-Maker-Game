@@ -1,4 +1,4 @@
-# Potato Empire Mapmaker
+# The Map Maker
 
 ## Overview
 
