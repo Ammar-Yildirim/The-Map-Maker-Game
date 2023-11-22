@@ -20,9 +20,11 @@ Map elements include forests, villages, farms, and water. Elements are randomly 
 <img src="./readmeImages/lehetseges_alakzatok.png" alt="Elements" width="530px" height="480px"/>
 
 - Example of a valid placement:
+
 <img src="./readmeImages/jo.png" alt="Good Example" width="530px" height="480px"/>
 
 - Invalid placement (hanging off the map):
+
 <img src="./readmeImages/rossz.png" alt="Bad Example" width="530px" height="480px"/>
 
 ### End of the Game
